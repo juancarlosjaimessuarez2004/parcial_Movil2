@@ -1,0 +1,55 @@
+body {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco para contraste */
+    font-family: Arial, sans-serif; /* Fuente básica */
+    margin: 0; /* Eliminar márgenes por defecto */
+    padding: 20px; /* Espaciado alrededor del contenido */
+  }
+  
+  h2, h3 {
+    color: #FFD700; /* Color dorado para los encabezados */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Eliminar espacio entre bordes */
+  }
+  
+  th, td {
+    padding: 15px; /* Espaciado interno */
+    text-align: left; /* Alinear texto a la izquierda */
+  }
+  
+  th {
+    background-color: #333; /* Color de fondo para encabezados de tabla */
+    color: white; /* Color de texto para encabezados */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #444; /* Color de fila alternada */
+  }
+  
+  img {
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+  }
+  
+  button {
+    background-color: #FFD700; /* Color dorado para los botones */
+    color: black; /* Texto negro en los botones */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    margin: 5px; /* Espaciado entre botones */
+  }
+  
+  button:hover {
+    background-color: #FFC300; /* Color de fondo al pasar el cursor */
+  }
+  
+  button:disabled {
+    background-color: #555; /* Color para botones deshabilitados */
+    cursor: not-allowed; /* Cursor de no permitido */
+  }
+  
